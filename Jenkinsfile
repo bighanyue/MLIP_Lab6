@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh '''#!/bin/bash
+                sh '''
                 echo 'Test Step: We run testing tool like pytest here'
 
                 # TODO fill out the path to conda here
